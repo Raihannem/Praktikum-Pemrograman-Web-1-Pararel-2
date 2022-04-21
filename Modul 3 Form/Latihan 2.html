@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title> Contoh form </title>
+    </head>
+   
+    <body>
+        <font type = arian black font size="6"> Data Diri </font>
+        <br><br>
+
+        <form action="simpan data.html" method="post">
+        <form type = arial size="5">
+            Nama: <input type = "text" name = "nim" value="">
+            <br>
+            <br>
+
+            Nim: <input type = "text" name = "nim" value=""
+            maxlength = "9" size="9">
+            <br>
+            <br>
+        </font>
+
+            Email:
+            <input type="email" name="email" reuired><br><br>
+            Password:  <input type="password" name="pass" size="11" maxlength="9" required>
+            <br>
+            <br>
+
+            Tanggal lahir:
+            <input type="date" name="bday"><br><br>
+            Jenis kelamin:
+            <br>
+            <input type="radio" name="jenis_kelamin" Value="L"> Laki-Laki
+            <br>
+            <input type="radio" name="jenis_kelamin" Value="P"> Perempuan
+            <br>
+            <br>
+            Pilih Hobi Anda (Boleh Lebih dari Satu):
+            <br>
+            <input type="checkbox" name="hobi_1" value="Menonton"> Menonton 
+            <br>
+            <input type="checkbox" name="hobi_2" value="Main game"> Main game
+            <br>
+            <input type="checkbox" name="hobi_3" value="Belanja"> Belanja
+            <br>
+            <input type="checkbox" name="hobi_4" value="Mancing"> Mancing
+            <br>
+            <input type="checkbox" name="hobi_5" value="Olahraga"> Olahraga
+            <br>
+            <br>
+
+            Asal Kota
+            <select name="asal_kota">
+                <option value="Kota Banjarmasin"> Banjarmasin</option>
+                <option value="Kota Bandung"> Bandung</option>
+                <option value="Kota Banjarbaru"> Banjarbaru</option>
+            </select>
+            <br>
+            <br>
+
+            Komentar Anda;
+            <br>
+            <textarea name="komentar" rows="5" cols="20">
+                Silahkan Isi Komentar Anda
+            </textarea>
+            <br>
+            <br>
+
+            <input type="reset" name="Ulangi" value="reset"> 
+            <input type="submit" name="kirim" value="submit"> 
+            <input type="button" name="Batal" value="Cancel"> 
+            <br>
+            <br>
+            <input type="image" name="Gambar" img src="fnf6.jpg" width="150" height="150">
+        </form>
+    </body>
+</html>
